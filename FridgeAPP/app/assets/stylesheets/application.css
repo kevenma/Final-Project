@@ -1,0 +1,85 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+ body {
+   background-image: url(fridge.jpg);
+   background-repeat: no-repeat;
+   background-size: 1600px 1600px;
+ }
+
+ #ingredient {
+   position: absolute;
+   left: 520px;
+   top: 200px;
+   height: 50px;
+   width: 300px;
+   font-size: 200%;
+   text-align: center;
+   font-family: 'Lobster', cursive;
+
+ }
+
+ #submit {
+   position: absolute;
+   left: 830px;
+   top: 200px;
+   height: 110;
+   width: 100;
+   font-size: 110%;
+   font-family: 'Lobster', cursive;
+ }
+
+ #container{
+   overflow: auto;
+   height: 160px;
+   width: 800px;
+   position: absolute;
+   left: 340px ;
+   top: 400px;
+   background-color: white;
+ }
+
+ .result{
+font-size: 150%;
+list-style-type: none;
+padding-left: 100px;
+padding-top: 20px;
+font-family: 'Lobster', cursive;
+ }
+
+ #image{
+   position: relative;
+   top: 115px;
+   right: 10px
+
+ }
+
+ .logo{
+   position: absolute;
+    left: 490px
+ }
+
+ #logoo{
+   position: absolute;
+   right:320px;
+    bottom: 70px
+ }
+
+#link{
+  position: absolute;
+
+}
